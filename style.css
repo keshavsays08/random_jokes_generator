@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+
+    background-color: rgb(244, 228, 169);
+}
+
+.logo {
+    padding: 20px;
+    margin: 20px;
+}
+
+nav {
+    padding: 44px;
+}
+
+h3 {
+    list-style: none;
+    font-weight: 500;
+    font-family:  "Rubik", sans-serif;
+    font-size: xx-large;
+    display: inline;
+}
+
+.btn {
+    padding: 20px;
+    margin: 30px;
+}
+
+.rbtn {
+    font-weight: 100;
+    font-family:  "Rubik", sans-serif;
+    font-size: medium;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 100px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgb(5, 5, 5);
+    color: azure;
+    font-family: "Rubik", sans-serif;
+    align-content: center;
+    /* border-style: ridge; */
+}
